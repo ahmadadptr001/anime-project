@@ -17,7 +17,7 @@ import Main from './components/main/main';
 function App() {
   return (
     <Routes>
-        <Route basename="/anime-project"
+        <Route
           path="/"
           element={
             <>
@@ -28,7 +28,7 @@ function App() {
           }
         />
 
-        <Route basename="/anime-project" path="/author" element={<Author />} />
+        <Route path="/author" element={<Author />} />
     </Routes>
   );
 }
