@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+// kebutuhan alami
 import './App.css';
+
+// kebutuhan tambahan
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "boxicons/css/boxicons.min.css";
+
+// Kebutuhan react
+import {Routes, Route} from "react-router-dom";
+import NavHome from './components/header/nav-home';
+import HeroHome from './components/hero/hero-home';
+import Author from './components/author/author';
+import Main from './components/main/main';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+        <Route basename="anime-project"
+          path="/"
+          element={
+            <>
+              <NavHome />
+              <HeroHome />
+              <Main />
+            </>
+          }
+        />
+
+        <Route basename="anime-project" path="/author" element={<Author />} />
+    </Routes>
   );
 }
 
