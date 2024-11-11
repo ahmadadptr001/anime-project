@@ -17,11 +17,7 @@ import Main from './components/main/main';
 function App() {
   return (
     <Routes>
-<<<<<<< HEAD
         <Route basename="/anime-project"
-=======
-        <Route
->>>>>>> 3582a9384c6248ca7c4e080b045ad2042f5de6dc
           path="/"
           element={
             <>
