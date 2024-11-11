@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anime-project/static/css/main.22063dcb.css",
-    "main.js": "/anime-project/static/js/main.1346d6ae.js",
+    "main.js": "/anime-project/static/js/main.b21c03ca.js",
     "static/media/boxicons.svg": "/anime-project/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
     "static/media/boxicons.eot": "/anime-project/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
     "static/media/halo.gif": "/anime-project/static/media/halo.d457fa073c210672e98f.gif",
@@ -10,10 +10,10 @@
     "static/media/boxicons.woff2": "/anime-project/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "index.html": "/anime-project/index.html",
     "main.22063dcb.css.map": "/anime-project/static/css/main.22063dcb.css.map",
-    "main.1346d6ae.js.map": "/anime-project/static/js/main.1346d6ae.js.map"
+    "main.b21c03ca.js.map": "/anime-project/static/js/main.b21c03ca.js.map"
   },
   "entrypoints": [
     "static/css/main.22063dcb.css",
-    "static/js/main.1346d6ae.js"
+    "static/js/main.b21c03ca.js"
   ]
 }
