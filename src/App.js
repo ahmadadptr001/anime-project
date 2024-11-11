@@ -17,7 +17,7 @@ import Main from './components/main/main';
 function App() {
   return (
     <Routes>
-        <Route basename="anime-project"
+        <Route basename="/anime-project"
           path="/"
           element={
             <>
